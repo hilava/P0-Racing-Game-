@@ -1,0 +1,33 @@
+img{
+  height:5%;
+  width:5%;
+}
+
+#lane1{
+  background-color: black;
+  height:100px;
+  margin-top: 50px;
+}
+#player1{
+  background-color: red;
+  height:30px;
+  width:30px;
+  margin-left:20px;
+  margin-top: 35px;
+}
+
+#lane2{
+  background-color: black;
+  height:100px;
+  margin-top: 135px;
+}
+#player2{
+  background-color: blue;
+  height:30px;
+  width:30px;
+  margin-left:20px;
+  margin-top: 35px;
+}
+button {
+  margin:50px;
+}

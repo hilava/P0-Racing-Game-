@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- set viewport to device width to help make site responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Racing Game</title>
+
+  <!-- bootstrap css -->
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- custom styles -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- jquery -->
+  <!-- Note: using subresource integrity; see: https://en.wikipedia.org/wiki/Subresource_Integrity -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+
+  <!-- handlebars -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+
+  <!-- custom script -->
+  <script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+  <container id="board">
+    <div class = "row">
+      <div class = "col-xs-1"></div>
+      <div class = "col-xs-10">
+        <div class="row" id="lane1">
+          <div id="player1"></div>
+          <!-- <div class = col-xs-10><img src="http://www.vanderbilt.edu/isss/wp-content/uploads/cartoon-car_104107391.jpg"></div> -->
+       </div>
+       <div class="row" id="lane2">
+         <div id="player2"></div>
+         <!-- <div class = col-xs-10><img src="http://www.vanderbilt.edu/isss/wp-content/uploads/cartoon-car_104107391.jpg"></div> -->
+      </div>
+    </div>
+    <div class = "col-xs-1"></div>
+  </div>
+  </container>
+  <button class="btn btn-default">RESET</>
+</body>
+</html>
