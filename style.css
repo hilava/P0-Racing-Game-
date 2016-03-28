@@ -1,36 +1,42 @@
 img{
-  height:5%;
-  width:5%;
+  height:80px;
+  width:70px;
 }
 
 #lane1{
   background-color: black;
-  height:100px;
+  height:200px;
   margin-top: 50px;
+    margin-bottom: 30px;
 }
 #player1{
-  background-color: red;
-  height:30px;
-  width:30px;
   margin-left:20px;
-  margin-top: 35px;
+  margin-top: 70px;
+
 }
 
 #lane2{
   background-color: black;
-  height:100px;
-  margin-top: 135px;
+  height:200px;
+  margin-top: 30px;
 }
 #player2{
-  background-color: blue;
-  height:30px;
-  width:30px;
   margin-left:20px;
-  margin-top: 35px;
+  margin-top: 70px;
 }
 button {
   margin:50px;
 }
 #board{
-  margin-top: 50px;
+  background-color: gray;
+}
+h1{
+  margin-left: 50px;
+}
+small{
+  margin-left: 50px;
+}
+#finish{
+  margin-top:50px;
+  height:50px;
 }

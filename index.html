@@ -25,21 +25,27 @@
   <script type="text/javascript" src="app.js"></script>
 </head>
 <body>
-  <h1>Let's Race!!</h1>
-  <h2>Player1 - press the "A" key</h2>
+  <h1>Start Your Engines!</h1>
+  <small>Player1 - press the "A" key</small>
   <br>
-  <h2>Player2 - press the "L" key</h2>
-  <container id="board">
+  <small>Player2 - press the "L" key</small>
+  <container>
     <div class = "row">
       <div class = "col-xs-1"></div>
-      <div class = "col-xs-10">
+      <div id="board" class = "col-xs-10">
         <div class="row" id="lane1">
-          <div id="player1"></div>
-          <!-- <div class = col-xs-10><img src="http://www.vanderbilt.edu/isss/wp-content/uploads/cartoon-car_104107391.jpg"></div> -->
+          <!--<div id="player1"></div>-->
+          <div id="player1"><img src="http://www.disneyclips.com/imagesnewb2/images/carb23.gif"></div>
+       </div>
+       <div class="row">
+         <div class = "col-xs-11"></div>
+         <div class = "col-xs-1">
+           <img id="#finish" src="http://blog.griffieworld.com/wp-content/uploads/2010/12/FinishFlag.jpg">
+         </div>
        </div>
        <div class="row" id="lane2">
-         <div id="player2"></div>
-         <!-- <div class = col-xs-10><img src="http://www.vanderbilt.edu/isss/wp-content/uploads/cartoon-car_104107391.jpg"></div> -->
+         <!--<div id="player2"></div>-->
+         <div id="player2"><img src="http://cliparts.co/cliparts/8cG/Enp/8cGEnppLi.png"></div>
       </div>
     </div>
     <div class = "col-xs-1"></div>
